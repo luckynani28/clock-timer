@@ -1,0 +1,15 @@
+p {
+  font-size: 70px;
+  text-align: center;
+  padding: 50px;
+  color:white;
+  font-weight: bold;
+  /* background-color:white; */
+  background-image: radial-gradient(black,#5B5B5B, white);
+  border-radius: 10px;
+}
+.card {
+
+border-radius: 30px;
+/* background-color: gray; */
+}

@@ -1,0 +1,19 @@
+1.create project and create another component 
+2.display the date 
+		var f= new Date();   ------>disply indian standard time
+3.we want only date and present time
+     {{f |  date:'medium' }}  ---------->Nov 6, 2018, 10:50:22 AM
+	 
+	 {{f |  date:'short' }} ----------> 11/6/18, 10:54 AM
+4.seconde running so we use setInterval function
+			  setInterval(() => {
+				this.f = new Date();
+					}, 1000 );
+5. Add css for that code
+
+
+
+https://loiane.com/2017/08/angular-tips-formatting-dates-with-a-custom-date-pipe-dd-mm-yyyy/
+
+
+https://angular.io/api/common/DatePipe
